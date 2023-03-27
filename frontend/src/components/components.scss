@@ -1,0 +1,88 @@
+.image-resize {
+    transform:scale(1, 1);
+    transition: 0.5s;
+
+    &:hover {
+        transform:scale(1.05, 1.05);
+    }
+} 
+
+.star-color{
+    color: gold;
+}
+
+
+
+  .fade-in-section {
+    opacity: 0;
+   
+    visibility: hidden;
+    transition: opacity 1500ms ease-out, 
+    transform 600ms ease-out,
+    visibility 1500ms ease-out;
+    will-change: opacity, transform, visibility;
+    transform: translateY(2vh);
+  }
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
+  
+.header{
+    height: 70px;
+}
+.header-bg{
+    opacity: 0;
+
+    visibility: hidden;
+    transition: opacity 1200ms ease-out, transform 600ms ease-out,
+      visibility 1200ms ease-out;
+    will-change: opacity, transform, visibility;
+}
+
+
+
+.card-height {
+
+    min-height: 400px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Just for presentational purposes, please disregard in your own implementation */
+  .App {
+    max-width: 100%;
+    padding: 1em;
+  }
+  
+  .box {
+    padding: 50px;
+    margin: 20px 0;
+  }
+  
+  .box span {
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  * {
+    box-sizing: inherit;
+  }
+  

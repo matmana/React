@@ -1,0 +1,32 @@
+
+
+
+$light: #B4C8E5;
+$dark: yellow;
+$danger: #4D5641;
+
+main{
+    min-height: 80vh;
+  }
+.content-custom{
+    padding-top: 55px;
+}
+
+
+body {
+  background-image: url("../public/items/firefly.svg");
+  
+  
+  // background-image: url("https://cdn.dribbble.com/users/3457/screenshots/2006659/media/4885a78e7b8b3a1ca83cf57e8ca3c4bb.gif");
+  // background-repeat: no-repeat;
+  // no-repeat center center fixed; 
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // background-size: cover;
+}
+ 
+
+ 
+
+@import 'bootstrap/scss/bootstrap.scss';
